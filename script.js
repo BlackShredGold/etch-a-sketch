@@ -24,6 +24,5 @@ function reset() {
     let userDimension = 0;
     userDimension = prompt('Enter your dimension ', '64');
     dimensions(Math.trunc(userDimension));
-    console.log(userDimension)
 }
 
